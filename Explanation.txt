@@ -1,0 +1,53 @@
+You have to find "Longest best string",
+initially you are given with three numbers, A, B, C
+you have to form a string which does not contain, 'aaa', 'bbb' or 'ccc' as a substring.
+Given three integers A, B and C, return any string s, which satisfies following conditions:
+s is best and longest possible.
+s contains at most a occurrences of the letter 'a', at most b occurrences of the letter 'b' and at most c occurrences of the letter 'c'.
+s will only contain 'a', 'b' and 'c' letters.
+If there is no such string s return '-1'.
+
+Input Description:
+Three integers, A,B,C. (1<A,B,C<1000)
+
+Output Description:
+Print the Longest best string if not possible then print '-1'
+
+Sample Input:
+2 3 1
+
+Sample Output:
+bbacba
+
+Explanation:
+The given string contains excatly, 2 a's, 3 b's, and 1 c with all condition adhered.
+
+Sample Input:
+6 4 8
+
+Sample Output:
+ccaccacbacbacbacba
+
+Sample Input:
+8 12 52
+
+Sample Output:
+ccbccbccbccbccbccaccbccaccbccaccbccaccbccaccbccaccbccaccbccacc
+
+Sample Input:
+12 12 5
+
+Sample Output:
+bababababababacbacbacbacbacba
+
+Sample Input:
+20 3 14
+
+Sample Output:
+aacaacaacaacaacacacacacacacacbacbacba
+
+Sample Input:
+0 0 0
+
+Sample Output:
+-1
